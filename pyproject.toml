@@ -1,0 +1,54 @@
+[project]
+name = "better-resume"
+version = "0.1.0"
+description = "AI-powered resume and cover letter assistant"
+authors = [
+    {name = "Bereket Assefa", email = "bereketsiyum@gmail.com"}
+]
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "uvicorn>=0.24.0",
+    "pydantic>=2.4.2",
+    "toml>=0.10.2",
+    "google-generativeai>=0.3.0",
+    "python-dotenv>=1.0.0",
+    "google-auth>=2.22.0",
+    "google-auth-oauthlib>=1.0.0",
+    "google-api-python-client>=2.100.0",
+    "google-auth-httplib2>=0.1.0",
+    "jinja2>=3.1.2",
+    "python-frontmatter>=1.0.0",
+    "pydantic-settings>=2.9.1",
+    "google-genai>=1.11.0",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "I",   # isort
+    "N",   # naming
+    "W",   # pycodestyle warnings
+    "B",   # flake8-bugbear
+]
+ignore = []
+
+[tool.ruff.lint.isort]
+known-first-party = ["app"]
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.4",
+    "black>=23.12.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["better_resume"]

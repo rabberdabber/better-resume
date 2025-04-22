@@ -1,0 +1,148 @@
+[personal]
+name = "Bereket Assefa"
+title = "Full Stack Software Engineer"
+location = "Seoul, South Korea"
+email = "bereketsiyum@gmail.com"
+
+[summary]
+lines = [
+  "Software Engineer with 2+ years of experience in building full-stack applications using FastAPI and React.",
+  "Focused on performance, clean architecture, and solving real-world problems with AI integrations."
+]
+
+[skills]
+languages = ["Python", "JavaScript", "TypeScript", "C", "C++"]
+frameworks = ["FastAPI", "Flask", "React", "Next.js", "React Native"]
+tools_os_frameworks = [
+    # Cloud & Container
+    "AWS", "GCP", "Docker", "Docker Compose", "Kubernetes",
+    
+    # Version Control & CI/CD
+    "Git", "Github", "Gitlab",
+    
+    # Databases & Caching
+    "PostgreSQL", "Redis",
+    
+    # Operating Systems
+    "Linux",
+    
+    # Development Tools
+    "VSCode", "Figma", "gcc",
+    
+    # Project Management
+    "Jira", "Agile", "Scrum",
+    
+    # Security & Authentication
+    "openSSL", "JWT", "OAuth 2.0", "TLS",
+    
+    # API & Communication Protocols
+    "REST", "WebSocket", "gRPC", "Google Protobuf"
+]
+
+[experience.1]
+role = "Software Engineer"
+company = "Emocog Inc."
+location = "Seoul, South Korea"
+start = "2022-08"
+end = "2024-12"
+
+[[experience.1.bullets]]
+what = "Developed a scalable digital therapy application backend"
+how = "Implemented microservices architecture with ISO 27001 compliance"
+impact = "Enabled secure, compliant therapy delivery for German market"
+tech_stack = ["FastAPI", "Python", "Docker", "Kubernetes"]
+
+[[experience.1.bullets]]
+what = "Enhanced application security system"
+how = "Implemented PostgreSQL-triggered audit logging and reviewed penetration test reports to improve microservice APIs security"
+impact = "Mitigated all identified CVE (Common Vulnerabilities and Exposures) vulnerabilities and strengthened overall system security"
+tech_stack = ["FastAPI", "PostgreSQL", "Python"]
+
+[[experience.1.bullets]]
+what = "Optimized real-time speech-to-text system for German language processing"
+how = "Researched and deployed custom German language models using VOSK Speech toolkit, implemented efficient streaming with gRPC, and built dedicated language server for vocabulary adaptation"
+impact = "Reduced speech-to-text latency by 50%, improved accuracy for real-time training feedback, and enhanced overall system efficiency"
+tech_stack = ["Python", "VOSK", "gRPC", "Linux"]
+
+[[experience.1.bullets]]
+what = "Implemented error monitoring system"
+how = "Deployed self-hosted Sentry instance"
+impact = "Improved system uptime and performance through proactive monitoring"
+tech_stack = ["Sentry", "Python", "Linux", "Docker Compose"]
+
+[[experience.1.bullets]]
+what = "Built real-time patient monitoring dashboard"
+how = "Implemented server-side rendering with WebSocket connections"
+impact = "Enabled support engineers to access vital patient information rapidly"
+tech_stack = ["FastAPI", "WebSockets", "HTML", "CSS", "JavaScript"]
+
+[[experience.1.bullets]]
+what = "Developed laboratory management system"
+how = "Created automated workflow system with real-time updates"
+impact = "Reduced data entry and reporting time by 60%"
+tech_stack = ["Next.js", "Firestore", "TypeScript", "GCP", "TailwindCSS"]
+
+[[experience.1.bullets]]
+what = "Developed healthcare solution for Parkinson's disease"
+how = "Created cross-platform app with diagnostic tests and real-time dashboard"
+impact = "Enabled comprehensive patient assessment through swipe, touch, and speech tests"
+tech_stack = ["React Native", "FastAPI", "React", "PostgreSQL", "React Query", "GCP", "JavaScript", "TailwindCSS"]
+
+[[experience.1.bullets]]
+what = "Led development of asynchronous Text-To-Speech (TTS) server"
+how = "Implemented audio caching system with AWS S3-compatible storage (Scaleway)"
+impact = "Optimized performance and reduced costs through efficient caching strategy"
+tech_stack = ["FastAPI", "Python", "AWS S3", "Scaleway"]
+
+[[experience.1.bullets]]
+what = "Led development of push notification microservice"
+how = "Created batch notification system using Firebase Cloud Messaging and Python multiprocessing with Kubernetes-managed Cron Jobs"
+impact = "Enabled timely delivery of training notifications to users through efficient batch processing"
+tech_stack = ["Python", "Firebase Cloud Messaging", "Kubernetes", "Cron", "Multiprocessing"]
+
+[projects.content_bake]
+name = "Content Bake"
+url = "content.codebake.io"
+date = "Aug 2024 – Present"
+tech_stack = ["Next.js", "Tiptap", "Shadcn/UI", "NextAuth", "Tailwind CSS", "Docker", "Coolify"]
+bullets = [
+  "Built a modern, responsive platform for content creation and management using Next.js, NextAuth, shadcn/ui, and Tailwind CSS",
+  "Integrated Tiptap as a block-based WYSIWYG (Rich Text) editor, facilitating intuitive content creation",
+  "Leveraged Server Components, Server Actions, and Static Site Generation to optimize performance for content posts",
+  "Enforced secure session management and access control via NextAuth for reliable user authentication",
+  "Deployed and self-hosted the entire stack on a virtual machine using Docker and Coolify, ensuring streamlined CI/CD and maintainability"
+]
+
+[projects.content_gen]
+name = "Content Gen"
+url = "github.com/rabberdabber/content-gen"
+date = "Dec 2024 – Present"
+tech_stack = ["FastAPI", "Python", "MinIO", "OpenAI", "Flux", "Redis", "Docker", "Coolify", "Pydantic"]
+bullets = [
+  "Engineered a FastAPI server for generating AI-driven content and images, integrating OpenAI, Flux APIs, and MinIO (S3-compatible) for robust object storage",
+  "Utilized Pydantic and structured responses from OpenAI to maintain schema consistency across editor, database, and API endpoints",
+  "Incorporated OAuth 2.0 for secure authorization and role-based access control, as well as Redis rate limiting to prevent service abuse",
+  "Deployed via Docker Compose and Coolify, simplifying infrastructure management and automated deployments"
+]
+
+[coursework]
+list = [
+    "Computer Science",
+    "Data Structures and Algorithms",
+    "Operating Systems",
+    "Software Engineering",
+    "Introduction to Algorithms",
+    "Programming Principles",
+    "Introduction to Artificial Intelligence",
+    "Introduction to Database",
+    "Introduction to Information Security",
+    "System Programming",
+    "Electrical Engineering",
+    "Advanced Programming",
+    "Programming Structures",
+    "Computer Networks",
+    "Network Programming"
+]
+
+[certifications]
+list = ["PostgreSQL for Everybody Specialization", "CSS for JavaScript Developers", "The Joy of React", "Advanced React with TypeScript", "Zod Workshop"]
